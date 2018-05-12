@@ -2,7 +2,9 @@
 This example shows how to use the built-in Unity NavMeshComponents for agent navigation of spatial maps. It shows an example of a mapped play space which allows agent navigation around it (marked by yellow cylinders). 
 
 [NavMesh Hololens In-Editor Example](https://youtu.be/VQVxRAq7U2k)
+
 [NavMesh On-Hololens Example](https://youtu.be/d8A6UAviLyQ)
+
 #### NavMeshSourceTag:
 Use this component for performing navigation on objects that are not part of the Spatial Mapping mesh.
 
