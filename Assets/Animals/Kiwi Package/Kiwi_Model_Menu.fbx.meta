@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: 1460c1337d33f46a39577e68dc46cf0d
+timeCreated: 1454350675
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature.003
+    100002: backfinger.L
+    100004: backfinger.R
+    100006: Bone
+    100008: finger.L
+    100010: finger.L.001
+    100012: finger.L.001_end
+    100014: finger.L.002
+    100016: finger.L.002_end
+    100018: finger.L_end
+    100020: finger.R
+    100022: finger.R.001
+    100024: finger.R.001_end
+    100026: finger.R.002
+    100028: finger.R.002_end
+    100030: finger.R_end
+    100032: foot.L
+    100034: foot.R
+    100036: head
+    100038: head_end
+    100040: Kiwi
+    100042: //RootNode
+    100044: Kiwi_Shirt
+    100046: leg.L
+    100048: leg.L_end
+    100050: leg.R
+    100052: leg.R_end
+    100054: spine
+    100056: spine.001
+    100058: spine.002
+    100060: thigh.L
+    100062: thigh.R
+    400000: Armature.003
+    400002: backfinger.L
+    400004: backfinger.R
+    400006: Bone
+    400008: finger.L
+    400010: finger.L.001
+    400012: finger.L.001_end
+    400014: finger.L.002
+    400016: finger.L.002_end
+    400018: finger.L_end
+    400020: finger.R
+    400022: finger.R.001
+    400024: finger.R.001_end
+    400026: finger.R.002
+    400028: finger.R.002_end
+    400030: finger.R_end
+    400032: foot.L
+    400034: foot.R
+    400036: head
+    400038: head_end
+    400040: Kiwi
+    400042: //RootNode
+    400044: Kiwi_Shirt
+    400046: leg.L
+    400048: leg.L_end
+    400050: leg.R
+    400052: leg.R_end
+    400054: spine
+    400056: spine.001
+    400058: spine.002
+    400060: thigh.L
+    400062: thigh.R
+    4300000: Kiwi
+    4300002: Kiwi_Shirt
+    7400000: Armature.003|EmptyAction
+    7400002: Armature.003|Kiwi_Cry_1
+    7400004: Armature.003|Kiwi_Cry_2
+    7400006: Armature.003|Kiwi_Falling
+    7400008: Armature.003|Kiwi_Idle
+    7400010: Armature.003|Kiwi_Jump_No_Offset
+    7400012: Armature.003|Kiwi_Jump_Offset
+    7400014: Armature.003|Kiwi_Run
+    7400016: Armature.003|Owl_Cry
+    7400018: Armature.003|TextAction
+    9500000: //RootNode
+    13700000: Kiwi
+    13700002: Kiwi_Shirt
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Cry_1
+      takeName: Armature.003|Kiwi_Cry_1
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Cry_2
+      takeName: Armature.003|Kiwi_Cry_2
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Falling
+      takeName: Armature.003|Kiwi_Falling
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Idle
+      takeName: Armature.003|Kiwi_Idle
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Jump_No_Offset
+      takeName: Armature.003|Kiwi_Jump_No_Offset
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Jump_Offset
+      takeName: Armature.003|Kiwi_Jump_Offset
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature.003|Kiwi_Run
+      takeName: Armature.003|Kiwi_Run
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.003
+        weight: 1
+      - path: Armature.003/Bone
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L/finger.L_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.001/finger.L.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.L/foot.L/finger.L.002/finger.L.002_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R/finger.R_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.001/finger.R.001_end
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002
+        weight: 1
+      - path: Armature.003/Bone/backfinger.R/foot.R/finger.R.002/finger.R.002_end
+        weight: 1
+      - path: Armature.003/Bone/spine
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head
+        weight: 1
+      - path: Armature.003/Bone/spine/spine.001/spine.002/head/head_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.L/leg.L/leg.L_end
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R
+        weight: 1
+      - path: Armature.003/Bone/spine/thigh.R/leg.R/leg.R_end
+        weight: 1
+      - path: Kiwi
+        weight: 1
+      - path: Kiwi_Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: a786fad3917e9f34587fda9e2eed71e0
+timeCreated: 1468821381
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackElbow_L
+    100002: BackElbow_R
+    100004: backLeg1_L
+    100006: backLeg1_R
+    100008: backLeg2_L
+    100010: backLeg2_R
+    100012: BackPaw_IK_L
+    100014: BackPaw_IK_R
+    100016: backPaw_L
+    100018: backPaw_R
+    100020: //RootNode
+    100022: ear_L
+    100024: ear_R
+    100026: Eye_L
+    100028: Eye_R
+    100030: Front_Elbow_L
+    100032: Front_Elbow_R
+    100034: frontLeg1_L
+    100036: frontLeg1_R
+    100038: frontLeg2_L
+    100040: frontLeg2_R
+    100042: FrontPaw_IK_L
+    100044: FrontPaw_IK_R
+    100046: frontPaw_L
+    100048: frontPaw_R
+    100050: Head
+    100052: Husky_Skeleton
+    100054: Low_Poly_Husky_Model
+    100056: Pelvis
+    100058: RootBone
+    100060: Spine_002
+    100062: Tail
+    100064: Tail_001
+    100066: Tail_002
+    400000: BackElbow_L
+    400002: BackElbow_R
+    400004: backLeg1_L
+    400006: backLeg1_R
+    400008: backLeg2_L
+    400010: backLeg2_R
+    400012: BackPaw_IK_L
+    400014: BackPaw_IK_R
+    400016: backPaw_L
+    400018: backPaw_R
+    400020: //RootNode
+    400022: ear_L
+    400024: ear_R
+    400026: Eye_L
+    400028: Eye_R
+    400030: Front_Elbow_L
+    400032: Front_Elbow_R
+    400034: frontLeg1_L
+    400036: frontLeg1_R
+    400038: frontLeg2_L
+    400040: frontLeg2_R
+    400042: FrontPaw_IK_L
+    400044: FrontPaw_IK_R
+    400046: frontPaw_L
+    400048: frontPaw_R
+    400050: Head
+    400052: Husky_Skeleton
+    400054: Low_Poly_Husky_Model
+    400056: Pelvis
+    400058: RootBone
+    400060: Spine_002
+    400062: Tail
+    400064: Tail_001
+    400066: Tail_002
+    4300000: Low_Poly_Husky_Model
+    7400000: Default Take
+    7400002: Husky_Cry
+    7400004: Husky_Idle_01
+    7400006: Husky_Idle_02
+    7400008: Husky_Jump_Up
+    7400010: Husky_Run
+    7400012: Husky_Walk
+    7400014: Husky_Jump_Up2
+    9500000: //RootNode
+    13700000: Low_Poly_Husky_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Cry
+      takeName: Husky_Cry
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Idle_01
+      takeName: Husky_Idle_01
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Idle_02
+      takeName: Husky_Idle_02
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Jump_Up
+      takeName: Husky_Jump_Up
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Run
+      takeName: Husky_Run
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Walk
+      takeName: Husky_Walk
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Husky_Jump_Up2
+      takeName: Husky_Jump_Up
+      firstFrame: 10
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Husky_Skeleton
+        weight: 1
+      - path: Husky_Skeleton/RootBone
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_L/BackElbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/BackPaw_IK_R/BackElbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_L/Front_Elbow_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/FrontPaw_IK_R/Front_Elbow_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_L/backLeg2_L/backPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/backLeg1_R/backLeg2_R/backPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_L/frontLeg2_L/frontPaw_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/frontLeg1_R/frontLeg2_R/frontPaw_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/ear_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_L
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Spine_002/Head/Eye_R
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001
+        weight: 1
+      - path: Husky_Skeleton/RootBone/Pelvis/Tail/Tail_001/Tail_002
+        weight: 1
+      - path: Low_Poly_Husky_Model
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Microsoft
-  productName: MixedRealityToolkit-Unity
+  productName: Cute Animals
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -627,7 +627,7 @@ PlayerSettings:
   metroCertificateNotAfter: 00e523fc4209d501
   metroApplicationDescription: MixedRealityToolkit-Unity
   wsaImages: {}
-  metroTileShortName: MixedRealityToolkit-Unity
+  metroTileShortName: Cute Animals
   metroCommandLineArgsFile: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
